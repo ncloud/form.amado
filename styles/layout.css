@@ -9,6 +9,8 @@
         min-height: 100%; height: auto; margin: 0 auto -60px; padding: 0 0 60px; 
     }
     
+    #social { position:absolute; left:15px; top:15px; }
+    
     .page-header { padding-left:15px; padding-right:15px; border-bottom:0; }
         .page-header h1 { font-weight:bold; margin-top:100px; text-align:center; }
     
@@ -20,12 +22,13 @@
     .text-center { text-align:center; }
     
     .view-wrap { padding-left:15px; padding-right:15px; font-size:16px; }
-        .view-wrap hr { margin-top:40px; margin-bottom:50px; border-top:1px solid #ddd; }
+        .view-wrap hr { margin-top:40px; margin-bottom:40px; border-top:1px solid #ddd; }
         .view-wrap h2 { font-weight:bold; font-size:24px; margin-top:30px; margin-bottom:20px; }
         .view-wrap ol { margin-top:20px; }
             .view-wrap ol li { margin-bottom:15px; }
-        .view-wrap blockquote { border-left:0; text-align:center; }
+        .view-wrap blockquote { padding:0; border-left:0; text-align:center; }
         .view-wrap .footnotes { margin-top:20px; padding-top:10px; }
+        	.view-wrap .footnotes hr { margin-top:20px; }
             
     #forms { margin-top:40px; padding-top:60px; padding-bottom:40px; background:#edeff1; }
         #forms form { }
@@ -40,16 +43,24 @@
     @media (max-width: 767px) {
     	.container { padding-left:0; padding-right:0; }
     	
-    	.page-header { margin-top: 30px; }	
-	    	.page-header h1 { margin-top:0px; }
+    	.page-header { margin-top: 64px; }	
+	    	.page-header h1 { margin-top:0px; font-size: 22px; }
     	
         .form-horizontal .control-label {
             padding-bottom:8px;
         }
         
+        .view-wrap hr { margin-top:30px; margin-bottom:30px; }
+        .view-wrap blockquote { text-align:left; }
+        .view-wrap .footnotes { margin-top:0px; }
+      	
+      	#forms { margin-top:20px; padding-top:30px; padding-bottom:20px; }
+      	
         #forms .page-menu {
             border-bottom: 1px solid #ddd;
             padding-bottom: 20px;
             margin-bottom: 20px;
         }
+        
+        .credit { padding-left:10px; padding-right:10px; }
     }

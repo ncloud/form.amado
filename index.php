@@ -7,12 +7,18 @@
     <meta name="author" content="">
 
     <title>(일단은) 아마도 가게</title>
-    
+    <meta property="og:title" content="(일단은) 아마도 가게" />
+    <meta property="og:description" content="'이야기를 파는 가게'라는 컨셉으로 작은 실험을 해보려고합니다. 당분간 그리고 일단은 이 곳을 '아마도 가게'라 명명합니다 :)" />
+
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/layout.css">
   </head>
 
   <body>
+	<div id="social">
+		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fstore.amado.kr&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=205411999540915" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>	  
+	</div>
+
     <div id="wrap">
       <div class="container">
         <div class="page-header">
@@ -94,11 +100,10 @@
                   </div>
                 </form>        
             </div>
-            <!--
+            
             <div class="clearfix">
-                <p class="text-muted credit">본 페이지는 오픈소스로 공개 예정입니다.</p>
+                <p class="text-muted credit">본 페이지는 <a href="https://github.com/ncloud/form.amado">오픈소스</a>로 공개했습니다.<!--마크다운(Markdown)으로 페이지 내용을 작성하고 구글 스프레드시트와 연동되어 있는 폼(양식)을 만드실 수 있습니다.--></p>
             </div>
-            -->
         </div>
     </div>
 
